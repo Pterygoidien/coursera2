@@ -1,0 +1,104 @@
+%container {
+  margin: 0 auto;
+}
+
+%grid-display {
+  display:grid;
+}
+
+.container {
+  max-width:$screen-xl;
+  margin: 0 auto;
+  padding:25px 45px;
+}
+/*width containers */
+.w-full {
+  width:100vw;
+  overflow-x:hidden;
+}
+.w-max-full{
+  width-max:100%;
+}
+.w-xl {
+  max-width:$screen-xl;
+}
+/* margins : */
+
+/*paddings : */
+
+/*Borders  */
+
+
+/*Flex displays*/
+%display-flex {
+  display:flex;
+  align-items:center;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  gap:15px;
+}
+.flex-row {
+  @extend %display-flex;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-nowrap{
+  flex-wrap:nowrap;
+}
+.flex-grow {
+  flex-grow:1;
+}
+.flex-shrink{
+  flex-shrink:1;
+}
+/*Justify content*/
+.justify-start {
+  justify-content: flex-start;
+}
+.justify-end {
+  justify-content:flex-end;
+}
+
+
+/*Collapses and rearrangements for media queries*/
+.collapse-sm {
+  @media(max-width:$screen-sm){
+    display:none;
+  }
+}
+.collapse-md {
+  @media(max-width:$screen-md){
+    display:none;
+  }
+}
+.collapse-lg {
+  @media(max-width:$screen-lg){
+    display:none;
+  }
+}
+.collapse-xl {
+  @media(max-width:$screen-xl){
+    display:none;
+  }
+}
+.display-sm {
+  @media(min-width:$screen-sm){
+    display:none;
+  }
+}
+.display-md {
+  @media(min-width:$screen-md){
+    display:none;
+  }
+}
+.display-lg {
+  @media(min-width:$screen-lg){
+    display:none;
+  }
+}
+.display-xl {
+  @media(min-width:$screen-xl){
+    display:none;
+  }
+}

@@ -1,0 +1,18 @@
+.btn {
+  display:inline-block;
+  border-radius: 7px;
+  margin: 0.25em;
+  cursor:pointer;
+}
+.btn--primary {
+  background-color: blue;
+  border: 3px solid blue;
+  color: white;
+}
+.btn--outline-primary {
+  background-color: inherit;
+  border: 3px solid blue;
+}
+.btn--lg {
+  padding: 0.5em 1.2em;
+}

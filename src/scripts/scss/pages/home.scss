@@ -1,0 +1,9 @@
+@import "../base/config";
+.showcase {
+  max-height:800px;
+  .showcase__text {
+    @media(max-width:$screen-md){
+      text-align:center;
+    } 
+  }
+}
